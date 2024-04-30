@@ -37,6 +37,10 @@ bServer.init({
     './**/*.css',
     './**/*.js'
   ],
+  ignore: [
+    'node_modules/**/*.*',
+    'dist/**/*.*'
+  ],
 	port: 2306,
 	open: true,
 	notify: false
